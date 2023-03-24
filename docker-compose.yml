@@ -1,0 +1,13 @@
+version: '3'
+services:
+  web:
+    image: python:3.9-slim-buster
+    working_dir: /app
+    volumes:
+      - .:/app
+    ports:
+      - "3002:3002"
+    environment:
+      FLASK_APP: app.py
+      FLASK_ENV: development
+    command: sh -c "pip install -r requirements.txt && flask --app index.py run"
