@@ -1,5 +1,4 @@
 from flask import Flask, request
-import wget
 import runpy
 import requests
 import time
@@ -7,7 +6,6 @@ import sys
 import os
 import subprocess
 from os.path import exists
-from ast import literal_eval
 app = Flask(__name__)
 
 
