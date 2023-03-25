@@ -1,7 +1,7 @@
 version: '3'
 services:
   web:
-    image: pytorch/pytorch
+    image: rwightman/pytorch-opencv
     working_dir: /app
     volumes:
       - .:/app
