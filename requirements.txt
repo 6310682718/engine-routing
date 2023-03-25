@@ -3,6 +3,7 @@
 # routing Flask
 
 # Base ----------------------------------------
+flask
 matplotlib
 numpy
 opencv-python
