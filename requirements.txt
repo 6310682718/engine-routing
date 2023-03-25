@@ -27,7 +27,7 @@ scikit-image
 # Plotting ------------------------------------
 pandas
 seaborn
-PyQt5
+# PyQt5
 
 # Export --------------------------------------
 # coremltools>=4.1  # CoreML export
