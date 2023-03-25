@@ -10,7 +10,7 @@ Pillow
 PyYAML
 requests
 scipy
-torch
+# torch
 torchvision
 tqdm
 ##protobuf
