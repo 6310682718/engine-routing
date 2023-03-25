@@ -8,8 +8,8 @@ Pillow
 PyYAML
 requests
 scipy
-torch
-torchvision
+# torch
+# torchvision
 tqdm
 ##protobuf
 
