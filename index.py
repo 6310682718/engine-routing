@@ -41,14 +41,15 @@ def execute():
         # os.system(f"sh run-engine.sh {ts}.mp4")
         output_bytes = subprocess.check_output(
             [sys.executable, "./engine/cn332-arial-car-track/detect.py", "--weights", "yolov7.pt", "--source", video_url, "--save-txt"])
-        # output = literal_eval(output_bytes.decode('utf-8'))
         output = output_bytes.decode('utf-8')
+        res = output.split("[result]")
+        # output = literal_eval(output_bytes.decode('utf-8'))
         print("OUTPUT -> ", output)
-        res = output.split("'count':")
         # print(res)
         if (len(res) >= 2):
+            json_val = literal_eval(res[1])
             result["status"] = True
-            result["count"] = res[-1]
+            result["count"] = json_val["count"]
             result["message"] = "Execution successfully"
             # result = {
             #     "status": True,
