@@ -6,7 +6,7 @@
 flask
 matplotlib
 numpy
-opencv-python
+# opencv-python
 Pillow
 PyYAML
 requests
