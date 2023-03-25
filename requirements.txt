@@ -11,7 +11,7 @@ PyYAML
 requests
 scipy
 # torch
-torchvision
+# torchvision
 tqdm
 ##protobuf
 
