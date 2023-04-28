@@ -1,4 +1,5 @@
 .vnv
+.venv
 __pycache__/
 runs
 *.pyc
