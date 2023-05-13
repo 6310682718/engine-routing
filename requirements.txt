@@ -6,13 +6,13 @@
 flask
 matplotlib
 numpy
-# opencv-python
+opencv-python
 Pillow
 PyYAML
 requests
 scipy
-# torch
-# torchvision
+torch
+torchvision
 tqdm
 ##protobuf
 
