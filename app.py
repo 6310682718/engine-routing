@@ -19,7 +19,7 @@ def execute():
     result = {"status": False, "count": 0, "message": "", "err": ""}
     try:
         json = request.json
-        file_name = "http://127.0.0.1:3003/" + json["result"]["file_name"]
+        file_name = "http://scheduler:3003/" + json["result"]["file_name"]
         # video_url = f"./videos/{file_name}"
         video_url = "./videos/" + file_name
 
